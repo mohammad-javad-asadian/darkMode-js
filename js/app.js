@@ -16,6 +16,7 @@ btnDarkMode.addEventListener('click', () => {
         $.documentElement.style.backgroundColor = '#1e2939'
         btnDarkMode.classList.add('hidden')
         btnLightMode.classList.remove('hidden')
+        btnLightMode.style.backgroundColor = '#1e2939'
         cardAbout.style.backgroundColor = '#fff'
         cardTitle.style.backgroundColor = '#d1d5dc'
         cardMain.style.borderColor = '#fff'
